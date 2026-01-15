@@ -25,8 +25,8 @@ From: python:3-slim
    "metadata": {},
    "outputs": [],
    "source": [
-    "import py2Dmol\n",
-    "from py2Dmol.viewer import view\n",
+    "import py2Dmol",
+    "from py2Dmol.viewer import view",
     "print(\"py2Dmol imported successfully!\")"
    ]
   }
