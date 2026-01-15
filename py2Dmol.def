@@ -13,6 +13,7 @@ From: python:3-slim
     git clone https://github.com/bougui505/py2Dmol.git
     cd py2Dmol
     pip install -e .
+    pip install notebook
 
 %environment
     export PYTHONPATH="/opt/py2Dmol:$PYTHONPATH"
