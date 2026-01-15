@@ -18,4 +18,4 @@ From: python:3-slim
     export PYTHONPATH="/opt/py2Dmol:$PYTHONPATH"
 
 %runscript
-    exec python3 "$@"
+    exec python3 -m notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root "$@"
