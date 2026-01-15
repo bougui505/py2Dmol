@@ -16,9 +16,6 @@ From: ubuntu:20.04
     cd py2Dmol
     pip3 install -e .
 
-    # Install additional dependencies if needed
-    pip3 install numpy jupyter
-
 %environment
     export PYTHONPATH="/opt/py2Dmol:$PYTHONPATH"
 
